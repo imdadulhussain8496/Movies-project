@@ -1,124 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eb092b;
+    padding: 0.8em;
+    top: 8px;
+    width: 100%;
 
-body{
-    
-    
-
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #eb092b;
-        padding: .8em;
-        top: 8px;
-        width: 100%;
-
-        
-    
-        img{
-            height: 2em;
-            width: 2em;
-            border-radius: 50%;
-            margin-right: auto;
-            
-        }
-        h3{
-          margin-right: 2em;
-          color:rgb(77, 58, 58);
-          font-family:Arial, Helvetica, sans-serif ;
-          
-        }
-    
+    img {
+      height: 2em;
+      width: 2em;
+      border-radius: 50%;
+      margin-right: auto;
     }
-    
-    .searchbar{
-        padding-top: 1em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-        input{
-            text-align: center;
-            height: 2em;
-            width: 15em;
-            border-radius: 5px;
-            border: 1px solid grey;
-            
-        
-        }
+    h3 {
+      margin-right: 2em;
+      color: rgb(77, 58, 58);
+      font-family: Arial, Helvetica, sans-serif;
     }
+  }
 
-    .catagorybar{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        gap: 6px;
-        margin-top: 1em;
-    
+  .searchbar {
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        button {
-            padding: 5px;
-            height: 2.5em;
-            width: 100%;
-            border-radius: 4px;
-            border: none;
-            color: #fff;
-            margin-top: 1em;
-        }
+    input {
+      text-align: center;
+      height: 2em;
+      width: 15em;
+      border-radius: 5px;
+      border: 1px solid grey;
+    }
+  }
+  #msg{
+    text-align: center;
+    font-size: 2em;
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-         button:active{
-            scale:0.9;
-         }
-       
-        #B{
-            background-color: rgb(46, 156, 119);
-        }
-        #H{
-            background-color: rgb(199, 49, 25);
-        }
-        #S{
-            background-color: rgb(75, 55, 18);
-        }
-        #A{
-            background-color:rgb(183, 149, 47);
-        }
+
+
+  }
+  .catagorybar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-top: 1em;
+
+    button {
+      padding: 3px;
+      height: 2.5em;
+      width: 100%;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      margin-top: 1em;
     }
 
-    .container{
-        padding: 1em;
-        
-
-        img{
-            margin-top: 1em;
-            height: 40%;
-            width: 100%;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 5px;
-             
-           
-        }
-           
-        .btn{
-            background-color: rgb(11, 120, 230);
-            border: none;
-            color: white;
-            padding: 8px 14px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size:.7em;
-            text-decoration: none;
-            margin-left: 70%;
-            margin-top: 1em;
-        }
-        
-        
+    button:active {
+      scale: 0.9;
     }
+
+    #B {
+      background-color: rgb(46, 156, 119);
+    }
+
+    #H {
+      background-color:rgb(84, 112, 8);
+    }
+
+    #S {
+      background-color: rgb(75, 55, 18);
+    }
+
+    #P {
+      background-color: rgb(152, 45, 28);
+      padding: 3px;
+      height: 2.5em;
+      width: 18%;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      margin-top: 1em;
+    }
+
+  }
+
+  .container {
+    padding: 1em;
+    
+
+    img {
+      margin-top: 1em;
+      height: 40%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 5px;
+    }
+
+    p {
+      padding: 8px;
+    }
+
+    .btn {
+      background-color: rgb(11, 120, 230);
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.7em;
+      text-decoration: none;
+      margin-left: 70%;
+    }
+  }
 }
-
