@@ -3,31 +3,31 @@
   padding: 0;
 }
 
+body {
+  background-color: black;
+}
 body nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: #eb092b;
-  padding: 0.8em;
+  justify-content: space-between;
   top: 8px;
   width: 100%;
 }
 body nav img {
-  height: 2em;
-  width: 2em;
-  border-radius: 50%;
-  margin-right: auto;
+  height: 50px;
+  width: 70px;
+  margin-left: -10px;
 }
 body nav h3 {
-  margin-right: 2em;
-  color: rgb(77, 58, 58);
+  margin-right: 15px;
+  color: rgba(234, 11, 11, 0.894);
   font-family: Arial, Helvetica, sans-serif;
 }
 body .searchbar {
-  padding-top: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }
 body .searchbar input {
   text-align: center;
@@ -48,7 +48,7 @@ body .catagorybar {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 1px;
-  margin-top: 1em;
+  padding-bottom: 0.8em;
 }
 body .catagorybar button {
   padding: 3px;
@@ -96,6 +96,7 @@ body .container img {
 }
 body .container p {
   padding: 8px;
+  color: #fff;
 }
 body .container .btn {
   background-color: rgb(11, 120, 230);
@@ -107,4 +108,25 @@ body .container .btn {
   font-size: 0.7em;
   text-decoration: none;
   margin-left: 70%;
+}
+body footer {
+  color: #b7b5b5;
+  padding: 1em 1em;
+}
+body footer .last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .last ul {
+  padding: 1em 1em;
+  font-size: 1em;
+  list-style: none;
+}
+body footer .last ul .top {
+  padding: 10px;
+  font-size: larger;
+}
+body footer h5 {
+  margin-top: 1em;
 }

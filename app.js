@@ -14,7 +14,6 @@ btn.addEventListener("click", function () {
   } else {
     msg.innerText = "Sorry you can not enter. You must be 18+";
 
-    msg.style.transform = "translate(-2%,-10%) scale(1)";
     msg.style.opacity = 0.8;
 
     setTimeout(function () {
@@ -25,3 +24,23 @@ btn.addEventListener("click", function () {
 
   
 });
+
+
+// comon page function 
+
+
+const comn = document.querySelectorAll('.cards');
+
+comn.forEach(comn => {
+
+  comn.addEventListener("click",function(){
+    window.location.href = "comn.html"
+  })
+});
+
+
+
+
+
+
+
