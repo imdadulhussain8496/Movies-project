@@ -85,7 +85,7 @@ body .container {
   padding: 1em;
 }
 body .container img {
-  margin-top: 1em;
+  margin-top: 10px;
   height: 40%;
   width: 100%;
   -o-object-fit: cover;
@@ -111,7 +111,7 @@ body .container .btn {
 }
 body footer {
   color: #b7b5b5;
-  padding: 1em 1em;
+  padding: 1em;
 }
 body footer .last {
   display: flex;
@@ -119,14 +119,18 @@ body footer .last {
   justify-content: space-between;
 }
 body footer .last ul {
-  padding: 1em 1em;
-  font-size: 1em;
+  font-size: 13px;
   list-style: none;
+  margin-right: 15px;
+  padding-left: 2.4em;
+  line-height: 1rem;
 }
 body footer .last ul .top {
-  padding: 10px;
   font-size: larger;
+  margin-bottom: 10px;
 }
 body footer h5 {
   margin-top: 1em;
+  font-size: 10px;
+  margin-left: 8px;
 }
